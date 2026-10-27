@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: none;
+    background-color: #141824;
+    font-family: var(--font-sans);
+    color: #f8fafc;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.stroke-title {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 4px #141824;
+  text-shadow: 0 4px 0 #141824;
+}
+
+@keyframes floatUpFade {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(0.92);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-48px) scale(0.96);
+  }
+}
+
+.animate-float-feedback {
+  animation: floatUpFade 1.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

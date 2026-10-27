@@ -1,0 +1,19 @@
+{
+  "name": "Gordou 3D - Mascota Virtual Fitness",
+  "short_name": "Gordou 3D",
+  "description": "Juego móvil interactivo 3D estilo Pou: cuida, alimenta y entrena a Gordou hasta llegar a 65 kg.",
+  "start_url": "/?autostart=1",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "background_color": "#141824",
+  "theme_color": "#141824",
+  "categories": ["games", "health", "fitness"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='42' fill='%23FF6B35'/><circle cx='96' cy='102' r='58' fill='%238D5524'/><circle cx='76' cy='90' r='10' fill='%23FFFFFF'/><circle cx='116' cy='90' r='10' fill='%23FFFFFF'/><circle cx='76' cy='90' r='5' fill='%23141824'/><circle cx='116' cy='90' r='5' fill='%23141824'/><path d='M74 122 Q96 140 118 122' stroke='%23FFFFFF' stroke-width='7' fill='none' stroke-linecap='round'/><rect x='50' y='52' width='92' height='14' rx='7' fill='%2310B981'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

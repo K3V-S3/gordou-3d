@@ -1,0 +1,6 @@
+{
+  "name": "Gordou 3D - Mascota Virtual Fitness",
+  "description": "Juego móvil interactivo en 3D estilo Pou donde cuidas, alimentas y entrenas a Gordou para llevarlo de forma saludable hasta su peso meta de 65 kg.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
